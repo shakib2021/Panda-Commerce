@@ -1,11 +1,21 @@
 
+.size{
 
-.carousel1{
-    margin-top:5%;
+    height:260px;
+}
+.panda-slide{
+
     
+    
+  
     width:80%;
     margin-left:7%;
 }
+.panda-slide .carousel-item{
+    border-radius:5%;
+}
+
+
 .carousel-title{
 margin-left:30px;
     margin-top:25%;
