@@ -21,3 +21,18 @@ margin-left:30px;
     font-size: 40px;
     font-weight: bold;
 }
+
+.ss{
+    font-size: 20px;
+    font-weight: bold;   
+}
+.card{
+    width:85%;
+}
+.inp{
+    width:280px;
+}
+.bg2{
+    background:rgba(11, 159, 196, 0.513);
+    height:300px;
+}

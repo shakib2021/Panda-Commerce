@@ -13,27 +13,45 @@
 </head>
 <body>
 <header class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-     
-            <img src="images/logo.png" alt="">
-
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Shoes</a>
-              <a class="nav-link" href="#">Backpack</a>
-              <a class="nav-link" href="#">Subscribe</a>
-             
-            </div>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" target="blank" href="https://www.facebook.com/zuckerberg.shakib">
+        <img src="images/logo.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shoes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Companies
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item " href="#">Amazon</a></li>
+              <li><a class="dropdown-item " href="#">Space X</a></li>
+              <li><a class="dropdown-item " href="#">Tesla</a></li>
+            
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">
+              Subscribe</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
 
 <!-- carousel is start -->
 
@@ -109,19 +127,19 @@
 </header>
 <!--  -->
 
-<main>
-<section>
-    <div class="container overflow-hidden mt-5">
-        <div class="row gx-5">
+<main class="container">
+
+    <section class="container overflow-hidden mt-5">
+        <div class="row gx-5 ">
           <div class="col-sm-12 col-md-4 mt-3">
-           <div class="p-3 rounded bg-secondary d-flex align-items-center  justify-content-around">
+           <div class="p-3 rounded bg-secondary  d-flex align-items-center  justify-content-around">
                <h1 class="text-white">Watch</h1>
             <img src="images/categories/watch.png" style="height:100px;">
             
             </div>
           </div>
           <div class="col-sm-12 col-md-4 mt-3">
-            <div class="p-3 rounded bg-success d-flex align-items-center  justify-content-around">
+            <div class="p-3 rounded bg-success  d-flex align-items-center  justify-content-around">
                 <h1 class="text-white">Bags</h1>
              <img src="images/categories/bag.png" style="height:100px;">
              
@@ -137,23 +155,130 @@
            </div>
          
         </div>
+      </section>
+      <section class="mt-5">
+        <h3>Shoes</h3>
+      
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-90 border-0 rounded shadow p-3 mb-5 bg-white rounded" >
+              <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional</p>
+                <p class="text-primary ss">$120</p>
+                <button type="button" class="btn btn-primary">Buy Now></button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-90 border-0 rounded shadow p-3 mb-5 bg-white rounded">
+              <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike 360</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional</p>
+                <p class="text-primary ss">$120</p>
+                <button type="button" class="btn btn-primary">Buy Now></button>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-90 border-0 rounded shadow p-3 mb-5 bg-white rounded">
+              <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Red Airmax</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional</p>
+                <p class="text-primary ss">$120</p>
+                <button type="button" class="btn btn-primary">Buy Now></button>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+
+      </section>
+     
+
+
+  <!-- backpack section -->
+
+  <section class="mt-5">
+    <h3>BackPacks</h3>
+  
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-90 border-0 rounded shadow p-3 mb-5 bg-white rounded" >
+          <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Red Laltu Bag</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional</p>
+            <p class="text-primary ss">$120</p>
+            <button type="button" class="btn btn-primary ">Buy Now></button>
+          </div>
+          
+        </div>
       </div>
-</section>
-   
-<section>
- <h1 class="ml-4">Shoes</h1>
+      <div class="col">
+        <div class="card h-90 border-0 rounded shadow p-3 mb-5 bg-white rounded">
+          <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Blue Niltu Bag</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional</p>
+            <p class="text-primary ss">$120</p>
+            <button type="button" class="btn btn-primary">Buy Now></button>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-90 border-0 rounded shadow p-3 mb-5 bg-white rounded">
+          <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Black Kaltu Bag</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional</p>
+            <p class="text-primary ss">$120</p>
+            <button type="button" class="btn btn-primary">Buy Now></button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
 
 
+  </section>
+    
+  <section class="rounded mt-5  p-3 container bg2 align-items-center d-flex justify-content-center">
+    <div>
+
+      <h1 class="text-primary">LET'S STAY IN TOUCH</h1>
+   <h5 class="text-success">Get updates on sales, specials and more</h5>
+   <div class="mb-3 w- inp">
+    
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  
+    
+<button type="button" class="btn btn-primary">Submit</button>
+    </div>
+    
 
 
-</section>
+  </section>
 
 
+<section></section>
 
     
     </main>
 
-
+<footer class="container mt-5 d-flex align-items-center d-flex justify-content-center ">
+ <div>
+  <p class="font">©2020. Panda Commerce. All rights reserved.United State Of Sylhet.</p>
+ </div>
+</footer>
     
 
        
